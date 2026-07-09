@@ -114,15 +114,18 @@ El sistema se controla desde un menú en consola que se mantiene activo hasta qu
 ```
 
 ### Flujo de ejecución
-input() del usuario
-↓
+
+```
+input() del usuariogit commit -m "@Restaurante"
+        ↓
 constructor del modelo
-↓
+        ↓
 creación del objeto
-↓
+        ↓
 registro en la clase Restaurante
-↓
+        ↓
 listado o búsqueda del registro
+```
 
 ---
 
