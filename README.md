@@ -15,15 +15,19 @@ El sistema aplica constructores tradicionales, decoradores `@property` y `@sette
 ---
 
 ## 🗂️ Estructura del proyecto
+```
 restaurante_app/
 ├── modelos/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── producto.py
 │   └── cliente.py
 ├── servicios/
-│   ├── init.py
+│   ├── __init__.py
 │   └── restaurante.py
 └── main.py
+``` 
+
+
 | Archivo | Ubicación | Responsabilidad |
 |---|---|---|
 | `__init__.py` | `modelos/` y `servicios/` | Identifica las carpetas como paquetes de Python |
@@ -92,19 +96,22 @@ class Cliente:
 ## 🖥️ Menú interactivo
 
 El sistema se controla desde un menú en consola que se mantiene activo hasta que el usuario seleccione la opción de salir.
+
+```
 ========================================
-SISTEMA DE GESTIÓN KASABE SCSM
+        SISTEMA DE GESTIÓN KASABE SCSM
 ========================================
-1.Registrar producto
-2.Listar productos
-3.Buscar producto
-________________________________________
-4.Registrar cliente
-5.Listar clientes
-6.Buscar cliente
-________________________________________
-7.Salir
+1. Registrar producto
+2. Listar productos
+3. Buscar producto
+----------------------------------------
+4. Registrar cliente
+5. Listar clientes
+6. Buscar cliente
+----------------------------------------
+7. Salir
 ========================================
+```
 
 ### Flujo de ejecución
 input() del usuario
