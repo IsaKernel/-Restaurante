@@ -40,7 +40,6 @@ class Producto:
         if not valor.strip():
             raise ValueError("La categoría del producto no puede estar vacía.")
         self.__categoria = valor.strip()
- 
    
     # Property y setter para el atributo precio.
     # Valida que el precio sea mayor a cero.
@@ -54,8 +53,7 @@ class Producto:
         if valor <= 0:
             raise ValueError("El precio debe ser mayor a cero.")
         self.__precio = valor
- 
-  
+
     # Property y setter para el atributo disponible.
     
     @property

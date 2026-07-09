@@ -75,10 +75,9 @@ class Restaurante:
             print(f"\n  [{i}]")
             cliente.mostrar_informacion()
  
-    # ----------------------------------------------------------
     # Busca un cliente por nombre en la lista.
     # Args: nombre (str): Nombre del cliente a buscar.
-    # ----------------------------------------------------------
+    
     def buscar_cliente(self, nombre: str) -> None:
         encontrado = False
         for cliente in self.__clientes:
